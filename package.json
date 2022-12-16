@@ -3,6 +3,7 @@
   "version": "2.0.8",
   "description": "easy oauth generic handling for electron",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node .",
     "example": "node ./example/example.js",
@@ -37,10 +38,12 @@
     "url": "https://github.com/kanekotic/oauth-electron/issues"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
     "@faker-js/faker": "^7.6.0",
+    "babel-jest": "^29.3.1",
     "codecov": "3.8.3",
     "electron": "22.0.0",
-    "jest": "29.3.1",
+    "jest": "^29.3.1",
     "spectron": "19.0.0"
   },
   "dependencies": {
